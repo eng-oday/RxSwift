@@ -9,7 +9,9 @@ import Foundation
 import RxSwift
 
 /*
- the never operator creates an observable that doesn’t emit anything and never terminates. It can be use to represent an infinite duration
+ -  the never operator creates an observable that doesn’t emit anything and never terminates. It can be use to represent an infinite duration
+ 
+ -  useful operator for when you want to do some side work that doesn’t affect the observable you’re working with
  */
 
 class Never {

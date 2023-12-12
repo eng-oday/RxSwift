@@ -22,6 +22,11 @@
 		F87888492B2736BC00B6C332 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87888482B2736BC00B6C332 /* Range.swift */; };
 		F878884B2B2739B500B6C332 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878884A2B2739B500B6C332 /* Create.swift */; };
 		F878884D2B27430700B6C332 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878884C2B27430700B6C332 /* Deferred.swift */; };
+		F8CB9BC92B2845F600E6C5B6 /* PerformSideEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9BC82B2845F600E6C5B6 /* PerformSideEffect.swift */; };
+		F8CB9BCC2B2854BB00E6C5B6 /* DebugInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9BCB2B2854BB00E6C5B6 /* DebugInfo.swift */; };
+		F8CB9BCF2B28761900E6C5B6 /* Publish_Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9BCE2B28761900E6C5B6 /* Publish_Subject.swift */; };
+		F8CB9BD12B28876800E6C5B6 /* Behavior_Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9BD02B28876800E6C5B6 /* Behavior_Subject.swift */; };
+		F8CB9BD32B2891C000E6C5B6 /* Replay_Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9BD22B2891C000E6C5B6 /* Replay_Subject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		F87888482B2736BC00B6C332 /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 		F878884A2B2739B500B6C332 /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
 		F878884C2B27430700B6C332 /* Deferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deferred.swift; sourceTree = "<group>"; };
+		F8CB9BC82B2845F600E6C5B6 /* PerformSideEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformSideEffect.swift; sourceTree = "<group>"; };
+		F8CB9BCB2B2854BB00E6C5B6 /* DebugInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugInfo.swift; sourceTree = "<group>"; };
+		F8CB9BCE2B28761900E6C5B6 /* Publish_Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publish_Subject.swift; sourceTree = "<group>"; };
+		F8CB9BD02B28876800E6C5B6 /* Behavior_Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behavior_Subject.swift; sourceTree = "<group>"; };
+		F8CB9BD22B2891C000E6C5B6 /* Replay_Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Replay_Subject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +106,12 @@
 		F87888232B271D3A00B6C332 /* RxSwift-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				F87888422B27349B00B6C332 /* Observer */,
-				F87888382B271F0800B6C332 /* Observables */,
 				F87888242B271D3A00B6C332 /* AppDelegate.swift */,
 				F87888262B271D3A00B6C332 /* SceneDelegate.swift */,
-				F87888282B271D3A00B6C332 /* ViewController.swift */,
+				F87888422B27349B00B6C332 /* Observer */,
+				F87888382B271F0800B6C332 /* Ch1_Observables */,
+				F8CB9BCD2B2875F400E6C5B6 /* Ch2_Subject */,
+				F8CB9BC62B28448D00E6C5B6 /* VieController */,
 				F878882A2B271D3A00B6C332 /* Main.storyboard */,
 				F878882D2B271D3B00B6C332 /* Assets.xcassets */,
 				F878882F2B271D3B00B6C332 /* LaunchScreen.storyboard */,
@@ -109,9 +120,11 @@
 			path = "RxSwift-Demo";
 			sourceTree = "<group>";
 		};
-		F87888382B271F0800B6C332 /* Observables */ = {
+		F87888382B271F0800B6C332 /* Ch1_Observables */ = {
 			isa = PBXGroup;
 			children = (
+				F8CB9BCA2B28549F00E6C5B6 /* Challenge2 */,
+				F8CB9BC72B2845D600E6C5B6 /* Challenge1 */,
 				F87888392B271F0800B6C332 /* Just.swift */,
 				F878883B2B27201B00B6C332 /* OF.swift */,
 				F87888402B2730AA00B6C332 /* From.swift */,
@@ -121,7 +134,7 @@
 				F878884A2B2739B500B6C332 /* Create.swift */,
 				F878884C2B27430700B6C332 /* Deferred.swift */,
 			);
-			path = Observables;
+			path = Ch1_Observables;
 			sourceTree = "<group>";
 		};
 		F87888422B27349B00B6C332 /* Observer */ = {
@@ -129,6 +142,40 @@
 			children = (
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		F8CB9BC62B28448D00E6C5B6 /* VieController */ = {
+			isa = PBXGroup;
+			children = (
+				F87888282B271D3A00B6C332 /* ViewController.swift */,
+			);
+			path = VieController;
+			sourceTree = "<group>";
+		};
+		F8CB9BC72B2845D600E6C5B6 /* Challenge1 */ = {
+			isa = PBXGroup;
+			children = (
+				F8CB9BC82B2845F600E6C5B6 /* PerformSideEffect.swift */,
+			);
+			path = Challenge1;
+			sourceTree = "<group>";
+		};
+		F8CB9BCA2B28549F00E6C5B6 /* Challenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				F8CB9BCB2B2854BB00E6C5B6 /* DebugInfo.swift */,
+			);
+			path = Challenge2;
+			sourceTree = "<group>";
+		};
+		F8CB9BCD2B2875F400E6C5B6 /* Ch2_Subject */ = {
+			isa = PBXGroup;
+			children = (
+				F8CB9BCE2B28761900E6C5B6 /* Publish_Subject.swift */,
+				F8CB9BD02B28876800E6C5B6 /* Behavior_Subject.swift */,
+				F8CB9BD22B2891C000E6C5B6 /* Replay_Subject.swift */,
+			);
+			path = Ch2_Subject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CB9BCC2B2854BB00E6C5B6 /* DebugInfo.swift in Sources */,
 				F87888292B271D3A00B6C332 /* ViewController.swift in Sources */,
 				F87888412B2730AA00B6C332 /* From.swift in Sources */,
 				F87888252B271D3A00B6C332 /* AppDelegate.swift in Sources */,
@@ -253,7 +301,11 @@
 				F87888492B2736BC00B6C332 /* Range.swift in Sources */,
 				F87888272B271D3A00B6C332 /* SceneDelegate.swift in Sources */,
 				F878883C2B27201B00B6C332 /* OF.swift in Sources */,
+				F8CB9BC92B2845F600E6C5B6 /* PerformSideEffect.swift in Sources */,
+				F8CB9BD12B28876800E6C5B6 /* Behavior_Subject.swift in Sources */,
 				F87888452B2734B400B6C332 /* Empty.swift in Sources */,
+				F8CB9BD32B2891C000E6C5B6 /* Replay_Subject.swift in Sources */,
+				F8CB9BCF2B28761900E6C5B6 /* Publish_Subject.swift in Sources */,
 				F87888472B2735B000B6C332 /* Never.swift in Sources */,
 				F878883A2B271F0800B6C332 /* Just.swift in Sources */,
 				F878884B2B2739B500B6C332 /* Create.swift in Sources */,

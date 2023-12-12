@@ -16,7 +16,6 @@ import RxSwift
 
 class Deferred {
     
-    
     private var flip        = false
     private let disposeBag  = DisposeBag()
 
