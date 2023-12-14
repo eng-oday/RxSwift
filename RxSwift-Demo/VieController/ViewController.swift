@@ -27,11 +27,14 @@ class ViewController: UIViewController {
     let puclishSubject      = Publish_Subject()
     let behavior_Subject    = Behavior_Subject()
     let replay_Subject      = Replay_Subject()
+    
+    
+    //MARK: - FilterOperator
+    let filtering_Operator      = Filtering_Opertaor()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        run_Publish_Subject_Examples()
-
+        run_Filtering_Operator()
     }
 
     private func run_Obervable_Examples(){
@@ -49,10 +52,14 @@ class ViewController: UIViewController {
         observables_Challenge2.subscribe_Observables_Challenge2()
     }
     
-    private func run_Publish_Subject_Examples(){
+    private func run_Subject_Examples(){
         puclishSubject.subscribeOn_Publish_Subject()
         behavior_Subject.subscribeOn_Publish_Subject()
         replay_Subject.subscribeOn_Replay_Subject()
+    }
+    
+    private func run_Filtering_Operator(){
+        filtering_Operator.exampleOn_Filtering_Opertaor()
     }
 
 }
