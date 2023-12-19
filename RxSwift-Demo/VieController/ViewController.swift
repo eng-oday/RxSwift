@@ -24,17 +24,24 @@ class ViewController: UIViewController {
     
     
     //MARK: - Subject
-    let puclishSubject      = Publish_Subject()
-    let behavior_Subject    = Behavior_Subject()
-    let replay_Subject      = Replay_Subject()
+    let puclishSubject          = Publish_Subject()
+    let behavior_Subject        = Behavior_Subject()
+    let replay_Subject          = Replay_Subject()
     
     
     //MARK: - FilterOperator
     let filtering_Operator      = Filtering_Opertaor()
-
+    
+    //MARK: - Sharing
+    let share                   = Share()
+    
+    //MARK: - Transforming Operator
+    
+    let transforming_Operator = Transforming_Operator()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        run_Filtering_Operator()
+        run_Transforming_Operator()
     }
 
     private func run_Obervable_Examples(){
@@ -60,6 +67,14 @@ class ViewController: UIViewController {
     
     private func run_Filtering_Operator(){
         filtering_Operator.exampleOn_Filtering_Opertaor()
+    }
+    
+    private func run_Sharing(){
+        share.exampleOn_Sharing()
+    }
+    
+    private func run_Transforming_Operator(){
+        transforming_Operator.exampleOn_Transforming_Operator()
     }
 
 }

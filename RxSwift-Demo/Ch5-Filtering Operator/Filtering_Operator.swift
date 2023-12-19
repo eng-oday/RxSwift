@@ -27,7 +27,6 @@ class Filtering_Opertaor{
         run_Take_While()
         run_Take_Until()
         run_Distinict_Until_Changed()
-        run_Distinict_Until_Changed_Custom_Comapring()
     }
     private func run_Ignore_Elements(){
         print("==================== ignore_Element ====================")

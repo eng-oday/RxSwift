@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8CA21352E622C84E78A4D6C7 /* Pods_RxSwift_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38BC9A1C4DB19D954D5BD26 /* Pods_RxSwift_Demo.framework */; };
 		F80B6BE12B2991EE00BA5EA8 /* Combinestagram_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B6BE02B2991EE00BA5EA8 /* Combinestagram_DemoApp.swift */; };
+		F82D3E2F2B3179E1003456CD /* Combinestagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D3E2E2B3179E1003456CD /* Combinestagram.swift */; };
+		F82D3E322B317A31003456CD /* Transforming_Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D3E312B317A31003456CD /* Transforming_Operator.swift */; };
+		F82D3E342B318790003456CD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82D3E332B318790003456CD /* Helper.swift */; };
 		F87888252B271D3A00B6C332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87888242B271D3A00B6C332 /* AppDelegate.swift */; };
 		F87888272B271D3A00B6C332 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87888262B271D3A00B6C332 /* SceneDelegate.swift */; };
 		F87888292B271D3A00B6C332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87888282B271D3A00B6C332 /* ViewController.swift */; };
@@ -23,6 +26,7 @@
 		F87888492B2736BC00B6C332 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87888482B2736BC00B6C332 /* Range.swift */; };
 		F878884B2B2739B500B6C332 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878884A2B2739B500B6C332 /* Create.swift */; };
 		F878884D2B27430700B6C332 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = F878884C2B27430700B6C332 /* Deferred.swift */; };
+		F8A666CD2B30257A00BB0336 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A666CC2B30257A00BB0336 /* Share.swift */; };
 		F8C238BE2B2B017700EE38F8 /* Filtering_Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C238BD2B2B017700EE38F8 /* Filtering_Operator.swift */; };
 		F8CB9BC92B2845F600E6C5B6 /* PerformSideEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9BC82B2845F600E6C5B6 /* PerformSideEffect.swift */; };
 		F8CB9BCC2B2854BB00E6C5B6 /* DebugInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB9BCB2B2854BB00E6C5B6 /* DebugInfo.swift */; };
@@ -36,6 +40,9 @@
 		CBF466EE11FB130346BE9ACC /* Pods-RxSwift-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Demo.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-Demo/Pods-RxSwift-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		F38BC9A1C4DB19D954D5BD26 /* Pods_RxSwift_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80B6BE02B2991EE00BA5EA8 /* Combinestagram_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinestagram_DemoApp.swift; sourceTree = "<group>"; };
+		F82D3E2E2B3179E1003456CD /* Combinestagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinestagram.swift; sourceTree = "<group>"; };
+		F82D3E312B317A31003456CD /* Transforming_Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transforming_Operator.swift; sourceTree = "<group>"; };
+		F82D3E332B318790003456CD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		F87888212B271D3A00B6C332 /* RxSwift-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87888242B271D3A00B6C332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87888262B271D3A00B6C332 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +59,7 @@
 		F87888482B2736BC00B6C332 /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 		F878884A2B2739B500B6C332 /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
 		F878884C2B27430700B6C332 /* Deferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deferred.swift; sourceTree = "<group>"; };
+		F8A666CC2B30257A00BB0336 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
 		F8C238BD2B2B017700EE38F8 /* Filtering_Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtering_Operator.swift; sourceTree = "<group>"; };
 		F8CB9BC82B2845F600E6C5B6 /* PerformSideEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformSideEffect.swift; sourceTree = "<group>"; };
 		F8CB9BCB2B2854BB00E6C5B6 /* DebugInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugInfo.swift; sourceTree = "<group>"; };
@@ -106,6 +114,15 @@
 			path = Ch4_Practice;
 			sourceTree = "<group>";
 		};
+		F82D3E302B3179FF003456CD /* Ch7-Transforming Operator */ = {
+			isa = PBXGroup;
+			children = (
+				F82D3E312B317A31003456CD /* Transforming_Operator.swift */,
+				F82D3E332B318790003456CD /* Helper.swift */,
+			);
+			path = "Ch7-Transforming Operator";
+			sourceTree = "<group>";
+		};
 		F87888182B271D3A00B6C332 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +149,8 @@
 				F8CB9BCD2B2875F400E6C5B6 /* Ch3_Subject */,
 				F80B6BDF2B29915700BA5EA8 /* Ch4_Practice */,
 				F8C238BC2B2AFFC100EE38F8 /* Ch5-Filtering Operator */,
+				F8A666CB2B30255B00BB0336 /* Ch6-Practise */,
+				F82D3E302B3179FF003456CD /* Ch7-Transforming Operator */,
 				F8CB9BC62B28448D00E6C5B6 /* VieController */,
 				F878882A2B271D3A00B6C332 /* Main.storyboard */,
 				F878882D2B271D3B00B6C332 /* Assets.xcassets */,
@@ -156,6 +175,15 @@
 				F878884C2B27430700B6C332 /* Deferred.swift */,
 			);
 			path = Ch2_Observables;
+			sourceTree = "<group>";
+		};
+		F8A666CB2B30255B00BB0336 /* Ch6-Practise */ = {
+			isa = PBXGroup;
+			children = (
+				F8A666CC2B30257A00BB0336 /* Share.swift */,
+				F82D3E2E2B3179E1003456CD /* Combinestagram.swift */,
+			);
+			path = "Ch6-Practise";
 			sourceTree = "<group>";
 		};
 		F8C238BC2B2AFFC100EE38F8 /* Ch5-Filtering Operator */ = {
@@ -316,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F80B6BE12B2991EE00BA5EA8 /* Combinestagram_DemoApp.swift in Sources */,
+				F82D3E322B317A31003456CD /* Transforming_Operator.swift in Sources */,
 				F8CB9BCC2B2854BB00E6C5B6 /* DebugInfo.swift in Sources */,
 				F87888292B271D3A00B6C332 /* ViewController.swift in Sources */,
 				F87888412B2730AA00B6C332 /* From.swift in Sources */,
@@ -325,13 +354,16 @@
 				F87888492B2736BC00B6C332 /* Range.swift in Sources */,
 				F87888272B271D3A00B6C332 /* SceneDelegate.swift in Sources */,
 				F878883C2B27201B00B6C332 /* OF.swift in Sources */,
+				F82D3E342B318790003456CD /* Helper.swift in Sources */,
 				F8CB9BC92B2845F600E6C5B6 /* PerformSideEffect.swift in Sources */,
+				F82D3E2F2B3179E1003456CD /* Combinestagram.swift in Sources */,
 				F8CB9BD12B28876800E6C5B6 /* Behavior_Subject.swift in Sources */,
 				F87888452B2734B400B6C332 /* Empty.swift in Sources */,
 				F8CB9BD32B2891C000E6C5B6 /* Replay_Subject.swift in Sources */,
 				F8CB9BCF2B28761900E6C5B6 /* Publish_Subject.swift in Sources */,
 				F87888472B2735B000B6C332 /* Never.swift in Sources */,
 				F878883A2B271F0800B6C332 /* Just.swift in Sources */,
+				F8A666CD2B30257A00BB0336 /* Share.swift in Sources */,
 				F878884B2B2739B500B6C332 /* Create.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
